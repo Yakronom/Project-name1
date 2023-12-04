@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
+}
+
+.header {
+    background-color: rgb(52, 52, 52);
+}
+
+.header * {
+    background-color: rgb(52, 52, 52);
+}
+
+.header-nav div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.header-nav div >div >* {
+    padding: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#myElement {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .main {
+    background-color: grey;
+    background-image: url("../images/front.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
