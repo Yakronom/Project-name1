@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'lackitalic';
+    src: url('../fonts/Lack/Webfonts/lack-italic-Lack.woff2') format('woff2'),
+         url('../fonts/Lack/Webfonts/lack-italic-Lack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lack_lineitalic';
+    src: url('../fonts/Lack/Webfonts/lack-line-italic-Lack.woff2') format('woff2'),
+         url('../fonts/Lack/Webfonts/lack-line-italic-Lack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lack_lineregular';
+    src: url('../fonts/Lack/Webfonts/lack-line-regular-Lack.woff2') format('woff2'),
+         url('../fonts/Lack/Webfonts/lack-line-regular-Lack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lackregular';
+    src: url('../fonts/Lack/Webfonts/Lack-Line-Regular.woff2') format('woff2'),
+         url('../fonts/Lack/Webfonts/Lack-Line-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text1 {
+    font-family: Lack;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
+}
+
+.header {
+    background-color: rgb(52, 52, 52);
+}
+
+.header * {
+    background-color: rgb(52, 52, 52);
+}
+
+.header-nav div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.header-nav div >div >* {
+    padding: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#myElement {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .main {
+    background-color: grey;
+    background-image: url("../images/front.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+
