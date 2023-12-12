@@ -152,7 +152,7 @@ body {
     margin:0 auto ; */
 }
 
-.main-wrapper--home---title >div:nth-of-type(2) {
+.main-wrapper--home---titlee >div:nth-of-type(2) {
     width: 26.625rem;
     height: 7.5rem;
     margin-top: -2.75rem;
@@ -211,3 +211,9 @@ body {
 .main-wrapper--home---title----item3 >div>button{
     margin: auto;
 } */
+
+.main-wrapper--sections---services > div{
+    width: 31.875rem;
+    height: 37.5rem;
+    background: white;
+}
