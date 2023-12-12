@@ -282,3 +282,45 @@ body {
     justify-content: space-between;
     flex-direction: column;
 }
+
+.main-wrapper--sections---portfolio----wrapper >div{
+    width: 49.6875rem;
+    height: 37.5rem;
+}
+
+.main-wrapper--sections---portfolio----wrapper *{
+    background: #F9F5FF;
+    color: #120B15;
+}
+
+.main-wrapper--sections---portfolio----wrapper > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper--sections---portfolio----wrapper > div > div{
+    width: 26.875rem;
+    height: 12.375rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.main-wrapper--sections---portfolio----wrapper > div > div >div{
+    width: 18.75rem;
+}
+
+.main-wrapper--sections---portfolio----wrapper > div > p{
+    width: 23.125rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-wrapper--sections---portfolio----wrapper > div:nth-child(2){
+    margin-left: 4.0625rem;
+}
