@@ -319,8 +319,15 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
+} 
 
 .main-wrapper--sections---portfolio----wrapper > div:nth-child(2){
     margin-left: 4.0625rem;
 }
+
+.main-wrapper--sections---portfolio {
+    margin-bottom: ;
+}
+
+width: 44.6875rem;
+height:13.75rem;
